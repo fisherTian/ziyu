@@ -1,0 +1,14 @@
+devMode = true
+
+# 微信服务器回调所用的 token
+token= ziyuxx
+
+# 紫煜公众号
+appId=wxf771c5a5dd2a098e
+appSecret=aba7caa0a9e1b0e780b72ecf5c7b3d96
+
+#是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
+encryptMessage=true
+encodingAesKey=X5y2asyf2H6uKVUHxyp0QUF30zGwSKukEUtRmN537L0
+
+
