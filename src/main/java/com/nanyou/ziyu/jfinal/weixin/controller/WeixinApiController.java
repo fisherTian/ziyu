@@ -68,9 +68,15 @@ public class WeixinApiController extends ApiController {
     	activity.setType("view");
     	gscpList.add(activity);
     	
+    	Menu coupon = new Menu();
+    	coupon.setName("泰兴有优惠");
+    	coupon.setUrl(AppConfig.getProductCouponUrl());
+    	coupon.setType("view");
+    	gscpList.add(coupon);
+    	
     	Menu xmb = new Menu();
     	xmb.setName("项目宝");
-    	xmb.setUrl(AppConfig.getProductActivityUrl());
+    	xmb.setUrl(AppConfig.getProductXmbUrl());
     	xmb.setType("view");
     	gscpList.add(xmb);
     	

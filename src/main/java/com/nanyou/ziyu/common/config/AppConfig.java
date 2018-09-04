@@ -12,6 +12,8 @@ public class AppConfig {
 	
 	private static final String PRODUCT_XMB_URL = "PRODUCT.XMB.URL";
 	
+	private static final String PRODUCT_COUPON_URL = "PRODUCT.COUPON.URL";
+	
 	private static final String CONTACT_URL = "CONTACT.URL";
 
     private static Properties p = new Properties();
@@ -36,6 +38,10 @@ public class AppConfig {
         return p.getProperty(DOMAIN_NAME)+p.getProperty(PRODUCT_ACTIVITY_URL);
     }
     
+    public static String getProductCouponUrl() {
+        return p.getProperty(DOMAIN_NAME)+p.getProperty(PRODUCT_COUPON_URL);
+    }
+    
     public static String getProductXmbUrl() {
         return p.getProperty(DOMAIN_NAME)+p.getProperty(PRODUCT_XMB_URL);
     }
@@ -43,4 +49,5 @@ public class AppConfig {
     public static String getContactUrl() {
         return p.getProperty(DOMAIN_NAME)+p.getProperty(CONTACT_URL);
     }
+    
 }
