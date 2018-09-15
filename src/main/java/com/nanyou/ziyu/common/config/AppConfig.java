@@ -35,7 +35,7 @@ public class AppConfig {
     }
     
     public static String getProductActivityUrl() {
-        return p.getProperty(DOMAIN_NAME)+p.getProperty(PRODUCT_ACTIVITY_URL);
+        return p.getProperty(PRODUCT_ACTIVITY_URL);
     }
     
     public static String getProductCouponUrl() {
