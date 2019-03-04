@@ -80,6 +80,12 @@ public class WeixinApiController extends ApiController {
     	xmb.setType("view");
     	gscpList.add(xmb);
     	
+    	Menu bysjw = new Menu();
+    	bysjw.setName("毕业设计网");
+    	bysjw.setUrl(AppConfig.getProductBysjwUrl());
+    	bysjw.setType("view");
+    	gscpList.add(bysjw);
+    	
     	Menu menu2 = new Menu();
 		menu2.setName("公司产品");
 		menu2.setSub_button(gscpList);

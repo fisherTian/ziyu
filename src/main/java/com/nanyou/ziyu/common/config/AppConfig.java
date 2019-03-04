@@ -14,6 +14,8 @@ public class AppConfig {
 	
 	private static final String PRODUCT_COUPON_URL = "PRODUCT.COUPON.URL";
 	
+	private static final String PRODUCT_BYSJW_URL = "PRODUCT.BYSJW.URL";
+	
 	private static final String CONTACT_URL = "CONTACT.URL";
 
     private static Properties p = new Properties();
@@ -44,6 +46,10 @@ public class AppConfig {
     
     public static String getProductXmbUrl() {
         return p.getProperty(DOMAIN_NAME)+p.getProperty(PRODUCT_XMB_URL);
+    }
+    
+    public static String getProductBysjwUrl() {
+        return p.getProperty(PRODUCT_BYSJW_URL);
     }
     
     public static String getContactUrl() {
